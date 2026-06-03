@@ -1,16 +1,34 @@
-# React + Vite
+### Retool Jenkins.io Contributor Spotlight website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Jenkins Contributor Spotlight is a community initiative that highlights the people behind the Jenkins ecosystem, showcasing their contributions, backgrounds, experiences, and impact on the project. The platform aims to recognize contributors, celebrate open-source collaboration, and inspire new community members to get involved with Jenkins development and documentation efforts
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The current GSoC 2026 revamp work is being actively developed on the `gsoc-2026-revamp` branch.
 
-## React Compiler
+### Clone the Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/YOUR_USERNAME/contributor-spotlight.git
+cd contributor-spotlight
+```
 
-## Expanding the ESLint configuration
+### Checkout the GSoC Revamp Branch
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git checkout gsoc-2026-revamp
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start the Development Server
+
+```bash
+npm run dev
+```
+
+The application should now be running locally.
